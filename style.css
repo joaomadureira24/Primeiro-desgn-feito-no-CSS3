@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@361&display=swap');
+
+body{
+    font-family: "Quicksand";
+    color: rgba(0, 0, 0, 0.685);
+    text-indent: center;
+}
+
+
+.first-header{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 30%;
+    background-image: url(./imagens/bgpro.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.first-header h1{
+    color: black;
+    padding: 20% 22%;
+}
+
+.first-header p{
+    font-size: 1.8rem;
+    width: 55%;
+    color: black;
+    padding: 0% 40%;
+}
+
+.princ-content{
+    width: 80%;
+    padding: 5% 19%;
+    box-sizing: border-box;
+    margin-left: 20%;
+}
+
+.princ-content p{
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
